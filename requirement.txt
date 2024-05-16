@@ -4,4 +4,7 @@ langchain_core
 langchain_community
 streamlit
 dotenv
-os
+langserve
+fastapi
+uvicorn
+sse_starlette

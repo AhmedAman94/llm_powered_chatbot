@@ -1,10 +1,10 @@
-from langchain_openai import ChatOpenAI
-from langchain_core.prompts import ChatPromptTemplate 
-from langchain_core.output_parsers import StrOutputParser
+from langchain_openai import ChatOpenAI                     # LLM used to power chatbot
+from langchain_core.prompts import ChatPromptTemplate       # Use to create flexible templated prompts for chat models
+from langchain_core.output_parsers import StrOutputParser   # OutputParser that parses LLMResult into the top likely string
 
-import streamlit as st
+import streamlit as st                                      # Turns scripts into shareable web apps
+from dotenv import load_dotenv                              # Loads environment variables from a .env file into process.env
 import os
-from dotenv import load_dotenv
 
 load_dotenv() # This loads the variables from .env into the environment
 
