@@ -6,8 +6,9 @@ In this repository are chatbots built on the open source LangChain framework and
 
 ## Demo
 
-<!-- [![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)](#features)
- -->
+[![llama3_demo](https://github.com/AhmedAman94/llm_powered_chatbot/blob/main/miscellaneous/screenshot_llama3_api.png)](#llama3)
+
+
 
 Coming soon
 
