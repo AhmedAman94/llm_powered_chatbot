@@ -29,14 +29,14 @@ app = FastAPI(
 # Define prompt templates
 prompt1 = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a helpful assistant. Respond to user queries in a succinct way"),
+        ("system", "You are a helpful assistant. Respond to user queries in a succinct way. Give examples or names of companies/ key public individuals where necessary."),
         ("user", "Question:{topic}")
     ]
 )
 
 prompt2 = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a helpful assistant. Respond to user queries in a detailed way with examples if applicable"),
+        ("system", "You are a helpful assistant. Respond to user queries in a succinct way. Give examples or names of companies/ key public individuals where necessary."),
         ("user", "Question:{topic}")
     ]
 )
